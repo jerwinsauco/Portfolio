@@ -109,11 +109,10 @@ header nav ul li a:hover {
     margin: 20px;
     flex: 1;
 }
-
 .row-item-1 {
     justify-content: flex-start;
+    width: 50%;
 }
-
 .row-title {
     flex: 1 30%;
     text-color: black;
@@ -130,19 +129,24 @@ header nav ul li a:hover {
     padding-left: 50px;
 }
 
-
 /*Styling for Work Section*/
-.project-2 {
+.row-2 {
     display: flex;
     justify-content: space-evenly;
 }
+.project-2 {
+    margin: 0;
+    display: flex;
+}
 
 .images-big {
-    max-width: 100%;
+    padding: 0 6px;
+    flex: 0 2 100px;
 }
 
 .images-small {
-    flex: 1 50%
+    padding: 0 6px;
+    flex: 0 1 100px;
 }
 
 
