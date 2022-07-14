@@ -96,30 +96,83 @@ header nav ul li a:hover {
 /*Row Section Styling*/
 
 /*ABOUT ME*/
-.row {
-    width: 100%;
-    margin: 0 auto;
+
+.row-1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 1em;
+}
+.row-1-item-1 {
+    flex: 1 1 25%;
+    border: 3px solid tomato;
+   
+}
+.row-1-item-2 {
+    flex: 1 1 70%;
+    border: 3px solid black;
+}
+
+.row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.row-3-item-1 {
+    flex: 1 1 25%;
+    border: 3px solid tomato;
+ 
+}
+.row-3-item-2 {
+    flex: 1 1 70%;
+    border: 3px solid black;
+}
+.row-3-item-2 nav {
+    margin: 7px 0; 
+}
+.row-3-item-2 nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 5px 10px;
+}
+.row-3-item-2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.55vw;
+    padding: 5px 15px;
+}
+.row-3-item-2 nav ul li a:hover {
+    background: rgb(0, 127, 127);
+    border-radius: 50px;
+    text-shadow: none;
+    color: rgb(0, 0, 0);
+}
+
+.row-title {
+    align-items: center;
+}
+
+
+
+
+
+
+/*.row {
+    /* width: 100%;
+    margin: 0 auto; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: space-between; */
 
 }
-.project-1 {
+/* .project-1 {
     display: flex;
     margin: 20px;
-    flex: 1;
+    /* flex: 1; */
 }
-.row-item-1 {
+/* .row-item-1 {
     justify-content: flex-start;
     width: 50%;
-}
-.row-title {
-    flex: 1 30%;
-    text-color: black;
-    text-align: right;
-    font-size: 28px;
-    letter-spacing: 4px;
-    margin: 0 0 0 200px;
 }
 .row-item-2 {
     margin: 0 25px;
@@ -127,10 +180,19 @@ header nav ul li a:hover {
     align-items: stretch;
     border-left: 5px solid black;
     padding-left: 50px;
-}
+    
+}.row-title {
+    flex: 1 30%;
+    text-color: black;
+    text-align: right;
+    font-size: 28px;
+    letter-spacing: 4px;
+    flex: 0 0 0 200px;
+} */ */
+
 
 /*Styling for Work Section*/
-.row-2 {
+/* .row-2 {
     display: flex;
     justify-content: space-evenly;
 }
@@ -147,7 +209,7 @@ header nav ul li a:hover {
 .images-small {
     padding: 0 6px;
     flex: 0 1 100px;
-}
+} */
 
 
 
