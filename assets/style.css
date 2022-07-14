@@ -99,46 +99,53 @@ header nav ul li a:hover {
 
 .row-1 {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     gap: 1em;
+    margin: 50px;
 }
 .row-1-item-1 {
-    flex: 1 1 25%;
-    border: 3px solid tomato;
+    padding-left: 200px;
+    flex: 1 0 25%;
    
 }
 .row-1-item-2 {
-    flex: 1 1 70%;
-    border: 3px solid black;
+    flex: 1 0 70%;
+    padding: 30px 15px;
+    border-left: 5px solid black;
+    height: 400px;
+    
 }
 
 .row-3 {
     display: flex;
-    flex-wrap: wrap;
     gap: 1em;
+    margin: 50px;
 }
 .row-3-item-1 {
-    flex: 1 1 25%;
-    border: 3px solid tomato;
+    flex: 1 0 25%;
+    padding-left: 150px;
  
 }
 .row-3-item-2 {
-    flex: 1 1 70%;
-    border: 3px solid black;
+    border-left: 5px solid black;
+    flex: 1 0 70%;
+    height: 200px;
+    background-color: tomato
 }
 .row-3-item-2 nav {
-    margin: 7px 0; 
+    margin: 7px 0;
+    display: flex;
+    
 }
 .row-3-item-2 nav ul {
-    display: flex;
-    justify-content: space-evenly;
     list-style: none;
     padding: 5px 10px;
+    
 }
 .row-3-item-2 a {
     text-decoration: none;
     color: black;
-    font-size: 1.55vw;
+    font-size: 18px;
     padding: 5px 15px;
 }
 .row-3-item-2 nav ul li a:hover {
@@ -149,7 +156,11 @@ header nav ul li a:hover {
 }
 
 .row-title {
-    align-items: center;
+    font-size: 28px;
+    text-align: right;
+    padding: 10px;
+
+
 }
 
 
@@ -210,10 +221,6 @@ header nav ul li a:hover {
     padding: 0 6px;
     flex: 0 1 100px;
 } */
-
-
-
-
 
 
 
