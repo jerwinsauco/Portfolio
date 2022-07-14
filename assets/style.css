@@ -9,6 +9,13 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.section-title {
+    text-color: black;
+    text-align: right;
+    font-size: 28px;
+    letter-spacing: 4px;
+    margin: 0;
+}
 /*This is the styling for the header and navigation section*/
 header {
     background-color: rgb(0, 0, 0);
@@ -60,8 +67,11 @@ header nav ul li a:hover {
     text-shadow: none;
     color: rgb(0, 0, 0);
   }
+/*Header and navigation styling ends*/
 
-  /*This is the styling section for the Hero*/
+
+
+/*This is the styling section for the Hero*/
 .hero {
     background-image: url('../assets/images/hero.jpeg');
     background-size: cover;
@@ -73,9 +83,72 @@ header nav ul li a:hover {
     align-items: flex-end;
 }
 
+/*This is the styling for the hero message content*/
 .hero h2 {
     padding: 20px;
-    background-color:  rgb(0, 127, 127);
+    background-color:  rgb(0, 127, 127, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     margin: 60px;
 }
+/*Hero Styling section Ends*/
+
+
+/*Row Section Styling*/
+
+/*ABOUT ME*/
+.row {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.project-1 {
+    display: flex;
+    margin: 20px;
+    flex: 1;
+}
+
+.row-item-1 {
+    justify-content: flex-start;
+}
+
+.row-title {
+    flex: 1 30%;
+    text-color: black;
+    text-align: right;
+    font-size: 28px;
+    letter-spacing: 4px;
+    margin: 0 0 0 200px;
+}
+.row-item-2 {
+    margin: 0 25px;
+    flex: 2 70%;
+    align-items: stretch;
+    border-left: 5px solid black;
+    padding-left: 50px;
+}
+
+
+/*Styling for Work Section*/
+.project-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.images-big {
+    max-width: 100%;
+}
+
+.images-small {
+    flex: 1 50%
+}
+
+
+
+
+
+
+
 
