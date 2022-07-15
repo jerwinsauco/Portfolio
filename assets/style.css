@@ -15,7 +15,10 @@ body {
     font-size: 28px;
     letter-spacing: 4px;
     margin: 0;
-    padding: 10px;
+    padding-left: 200px;
+    flex: 0 0 15%;
+    border: 3px solid black:
+
 }
 
 header {
@@ -50,7 +53,7 @@ header nav {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-     justify-content: space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none; 
 }
@@ -91,6 +94,10 @@ header nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     margin: 60px;
 }
+
+
+
+
 .row-1 {
     display: flex;
     align-items: center;
@@ -99,11 +106,12 @@ header nav ul li a:hover {
 }
 .row-1-item-1 {
     padding-left: 200px;
-    flex: 1 0 25%;
+    flex-basis: 15%;
+    min-height: 100%;
    
 }
 .row-1-item-2 {
-    flex: 1 0 70%;
+    flex-basis:  85%;
     padding: 30px 15px;
     border-left: 5px solid black;
     height: 400px;
@@ -116,13 +124,14 @@ header nav ul li a:hover {
     margin: 50px;
 }
 .row-3-item-1 {
-    flex: 1 0 25%;
+    flex-basis: 15%;
     padding-left: 150px;
+    min-height: 100%;
  
 }
 .row-3-item-2 {
     border-left: 5px solid black;
-    flex: 1 0 70%;
+    flex-basis: 85%;
     height: 200px;
 }
 
@@ -164,4 +173,66 @@ header nav ul li a:hover {
 
 
 
+.row-2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /* 
+    gap: 1em;
+    margin: 50px;
+    height: 1000px;
+    border: 10px solid rgb(143, 3, 3);
+    background-color: yellow;
+    margin: 50px;
+    
+    justify-content: space-between; */
 
+}
+
+.row-2-item-1 {
+    flex-basis: 15%;
+    padding-left: 150px;
+    background-color: blue;
+    flex-wrap: wrap;
+    min-height: 100%;
+    
+
+    
+}
+
+.row-2-item-2 {
+    flex-basis: 70%;
+    background-color: rgb(51, 255, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 5px solid black;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.polariod {
+    display: flex;
+    flex-wrap: row;
+    flex: 0 1 70%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.image > img {
+    object-fit: scale-down;
+    max-height: 500px;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.image:hover {opacity: 0.7;}
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
+}
